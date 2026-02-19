@@ -1,0 +1,28 @@
+[project]
+name = "dsa-cap02"
+version = "0.1.0"
+requires-python = "==3.9.13"
+
+dependencies = [
+    "numpy==1.21.5",
+    "pandas==1.5.2",
+    "matplotlib==3.5.2",
+    "statsmodels==0.13.2",
+    "scikit-learn==1.2.0",
+    "prophet==1.1.1",
+    "requests==2.28.1",
+    "holidays==0.17.2",
+    "xgboost==1.7.2",
+    "setuptools<70",
+    "watermark>=2.6.0",
+    "ipython==7.34.0",
+    "matplotlib-inline==0.1.6",
+    "cmdstanpy==1.0.4",
+    "jupyterlab>=4.1.6",
+    "ipykernel>=6.31.0",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "ipykernel"
+]
