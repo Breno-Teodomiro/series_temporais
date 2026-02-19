@@ -1,17 +1,17 @@
-# ambientes virtuais
+# virtual environments (all chapters)
 **/.venv/
 **/.python-version
+
+# python cache
+__pycache__/
+*.pyc
 
 # jupyter
 .ipynb_checkpoints/
 
-# sistema
+# uv cache
+.uv/
+
+# OS
 .DS_Store
 Thumbs.db
-
-# python
-__pycache__/
-*.pyc
-
-# uv cache opcional
-.uv/
